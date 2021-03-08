@@ -1,0 +1,44 @@
+$font-items: "Yeseva One", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Open Sans", sans-serif !default;
+$font-heading: "Lora", "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif !default;
+$font-body: "Overpass Mono", "Arial", "Open Sans", sans-serif, "Helvetica Neue", "Helvetica", "Helvetica Neue Light" !default;
+
+$colors: (
+  '--lightHighlight': #b8d1aa,
+  '--darkHighlight': #295327,
+  '--darkerText': #162416,
+  '--darkText': #F7EFB6,
+  '--lightText': #f5f7f3,
+  '--lightBg': #d5895c,
+  '--darkBg': #aa401c 
+);
+
+$colorsOld: (
+  '--lightHighlight': #7B985D,
+  '--lightText': #fefae0,
+  '--darkText': #E3DBC9,
+  '--lightBg': #BB9F7C,
+  '--darkBg': #D15B3B,
+  '--darkHighlight': #3C8235,
+  '--darkerText': #1C301C,
+);
+
+$colorsSaturated: (
+  '--lightHighlight': #a4c3a3,
+  '--lightText': #e6ede4,
+  '--darkText': #c2a9ae,
+  '--lightBg': #9c7b73,
+  '--darkBg': #6a4046,
+  '--darkHighlight': #202154,
+  '--darkerText': #0a0c31,
+);
+
+$max-width-regular: 1040px !default;
+$max-width-xl: 1226px !default;
+
+$padding: 1.8rem !default;
+
+$screen-xs-min: 320px !default;
+$screen-sm-min: 576px !default;
+$screen-md-min: 768px !default;
+$screen-lg-min: 992px !default;
+$screen-xl-min: 1200px !default;

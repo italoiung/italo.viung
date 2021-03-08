@@ -1,0 +1,135 @@
+{
+  "title": [
+    "Meu <strong>trabalho</strong>",
+    "My <strong>work</strong>"
+  ],
+  "subtitle": [
+    "<b>Clique</b> para <b>navegar</b> através dos <b>meus trabalhos</b>",
+    "<b>Tap</b> arount to <b>navigate</b> through <b>my work</b>"
+  ],
+  "projects": [
+    {
+      "name": "FIA Online",
+      "id": "fia-online",
+      "stack": "Hubspot CMS, HUBL, SASS, jQuery, Vue.js",
+      "screen": "fia.jpg",
+      "logo": "fia-logo.png",
+      "year": 2020,
+      "url": "https://fiaonline.com.br"
+    },
+    {
+      "name": "Trinto",
+      "id": "trinto",
+      "stack": "Gatsby.js, React.js",
+      "screen": "trinto.jpg",
+      "logo": "trinto-logo.png",
+      "year": 2020,
+      "url": "https://trinto.com.br",
+      "extraStyle": {
+        "minWidth": "30%"
+      }
+    },
+    {
+      "name": "PUCRS Online",
+      "id": "pucrs-online",
+      "stack": "Vue.js",
+      "screen": "pucrs.jpg",
+      "logo": "pucrs-logo.png",
+      "year": 2020,
+      "url": "https://online.pucrs.br"
+    },
+    {
+      "name": "Amanda Iung",
+      "id": "amanda-iung",
+      "stack": "Headless Wordpress, Gatsby.js, React.js",
+      "screen": "amanda.jpg",
+      "logo": "amanda-logo.png",
+      "year": 2019,
+      "url": "https://amanda.viung.me",
+      "github": "https://github.com/italoiung/amanda.iung"
+    },
+    {
+      "name": "Iung",
+      "id": "iung",
+      "stack": "Pug.js, SASS, ES6, Gulp.js",
+      "screen": "iung.jpg",
+      "logo": "iung-logo.png",
+      "year": 2019,
+      "url": "https://viung.me",
+      "github": "https://github.com/italoiung/iung.me"
+    },
+    {
+      "name": "Ítalo Iung",
+      "id": "italo-iung",
+      "stack": "Pug.js, SASS, ES6, Gulp.js",
+      "screen": "italo.jpg",
+      "logo": "italo-logo.png",
+      "year": 2019,
+      "url": "https://museum.viung.me/italo",
+      "github": "https://github.com/italoiung/italo.iung"
+    },
+    {
+      "name": "Marcos Eberhardt",
+      "id": "marcos-eberhardt",
+      "stack": "Wordpress, HTML, CSS, jQuery",
+      "screen": "marcos.jpg",
+      "logo": "marcos-logo.png",
+      "year": 2018,
+      "url": "https://marcoseberhardt.com.br"
+    },
+    {
+      "name": "CC100",
+      "id": "cc100",
+      "stack": "Wordpress, HTML, CSS, jQuery",
+      "screen": "cc100.jpg",
+      "logo": "cc100-logo.png",
+      "year": 2018,
+      "url": "https://cc100.com.br"
+    },
+    {
+      "name": "Abreast",
+      "id": "abreast",
+      "stack": "Wordpress, Bootstrap",
+      "screen": "abreast.jpg",
+      "logo": "abreast-logo.png",
+      "year": 2018,
+      "url": "https://abreast.net.br"
+    },
+    {
+      "name": "Serro do Queijo",
+      "id": "serro-do-queijo",
+      "stack": "Wordpress, WooCommerce",
+      "screen": "serro.jpg",
+      "logo": "serro-logo.png",
+      "year": 2018,
+      "url": "https://serrodoqueijo.com"
+    },
+    {
+      "name": "Andressa Tonetto Fontana",
+      "id": "andressa-tonetto-fontana",
+      "stack": "Wordpress, HTML, CSS, jQuery",
+      "screen": "andressa.jpg",
+      "logo": "andressa-logo.png",
+      "year": 2018,
+      "url": "http://andressatonettofontana.com.br"
+    },
+    {
+      "name": "Moinhos Investimentos",
+      "id": "moinhos-investimentos",
+      "stack": "Wordpress, HTML, CSS, jQuery",
+      "screen": "moix.jpg",
+      "logo": "moix-logo.png",
+      "year": 2018,
+      "url": "http://moix.com.br"
+    },
+    {
+      "name": "Open Solution",
+      "id": "open-solution",
+      "stack": "Wordpress, HTML, CSS, jQuery",
+      "screen": "open.jpg",
+      "logo": "open-logo.png",
+      "year": 2018,
+      "url": "http://opensolution.com.br"
+    }
+  ]
+}

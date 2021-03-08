@@ -1,0 +1,116 @@
+{
+  "tabs": [
+    [
+      "sobre",
+      "about"
+    ],
+    [
+      "habilidades",
+      "skills"
+    ]
+  ],
+  "skills": [
+    {
+      "name": "Vue.js",
+      "weight": 7
+    },
+    {
+      "name": "jQuery",
+      "weight": 5
+    },
+    {
+      "name": "CSS3",
+      "weight": 9
+    },
+    {
+      "name": "Nuxt.js",
+      "weight": 5
+    },
+    {
+      "name": "PHP",
+      "weight": 3
+    },
+    {
+      "name": "React.js",
+      "weight": 7
+    },
+    {
+      "name": "Github",
+      "weight": 5
+    },
+    {
+      "name": "SQL",
+      "weight": 3
+    },
+    {
+      "name": "Gatsby.js",
+      "weight": 5
+    },
+    {
+      "name": "SASS",
+      "weight": 7
+    },
+    {
+      "name": "ES6",
+      "weight": 9
+    },
+    {
+      "name": "Gulp.js",
+      "weight": 5
+    },
+    {
+      "name": "ESLint",
+      "weight": 7
+    },
+    {
+      "name": "Bootstrap",
+      "weight": 3
+    },
+    {
+      "name": "Pug.js",
+      "weight": 7
+    },
+    {
+      "name": "Wordpress",
+      "weight": 5
+    },
+    {
+      "name": "Node.js",
+      "weight": 3
+    },
+    {
+      "name": "HUBL",
+      "weight": 7
+    },
+    {
+      "name": "Vuex",
+      "weight": 5
+    },
+    {
+      "name": "StyleLint",
+      "weight": 7
+    }
+  ],
+  "title": [
+    "Sobre <b>mim</b>",
+    "About <b>me</b>"
+  ],
+  "paragraphs": [
+    [
+      "Meu interesse pela programação veio antes mesmo de eu concluir o Curso Técnico em Informática no Instituto Federal Sul-Rio-Grandense de Charqueadas, pois desde o segundo ano vim participando de mostras e feiras cientificas responsável pelo desenvolvimento de protótipos, dando destaque à Mostratec, onde tive a oportunidade de conhecer diferentes culturas, por ser uma mostra internacional, assim como aprender sobre pesquisas de outras áreas.",
+      "My interest in coding began even before I graduated at my technical high school course, because I had gone to scientific fairs and exhibitions since my sophomore year, highlighting the opportunity I had of going to the <em>Mostratec</em>, which is an international scientific fair where I got to meet another cultures and research areas."
+    ],
+    [
+      "Assim que formado, iniciei meu estágio ficando responsável pelo suporte ao cliente, assim como o gerenciamento de demandas dos demais atendentes e, também, o desenvolvimento de temas personalizados de acordo com a necessidade do cliente. Após o período do estágio obrigatório, fui efetivado por outra agência tendo responsabilidades semelhantes, mas algumas mais, como ter todo o contato com o cliente após contratação.",
+      "As soon as I graduated, I started working as an internship, being responsible for customer support, managing others interns' task and developing customized <strong>WordPress</strong> themes according to each customer interests. After my internship, I got hired by another agency and had similar tasks with some more, like staying in touch with the customer during the process until the project has been delivered."
+    ],
+    [
+      "No ano de 2020, integrei a equipe da empresa porto-alegrense de marketing digital, Trinto, para trabalhar usando <strong>Vue.js</strong>. Lá, fiz parte do <em>squad</em> dedicado que iria construir a nova vitrine digital do cliente especializado em cursos online. Lá, me destaquei rapidamente no time, recebendo uma promoção que veio com a expansão do time e a renovação do contrato do cliente e, assim, adquiri um perfil de liderança na equipe sob os demais desenvolvedores front-end. Faziam parte das minhas novas responsabilidades o planejamento inicial de desenvolvimento, revisar códigos, encontrar melhorias e <em>bugs</em> e passar <em>feedbacks</em> (em reuniões para isso e, também, diariamente), assim como reuniões com o cliente e resoluções de problemas. Com essa renovação de contrato, o <em>squad</em> também ganhou um novo foco: passamos a utilizar a ferramenta <strong>Hubspot</strong>, ficando responsável pela criação de <em>landing pages</em>, páginas promocionais, salas de degustação, modelos de página para o <strong>Hubspot CMS</strong>.",
+      "In the year of 2020, I became part of the team of the Brazilian digital marketing company, Trinto, to develop with <strong>Vue.js</strong>. There, I made part of the dedicated squad that would build our customer's new online courses showcase. There I got to quickly stand out, getting a promotion which came with our customer's contract renewal and our team's expansion, that brought me to a new leadership profile to our others front-end developers. Now, it were part of my new responsibilities the project's initial development planning, reviewing codes, finding improvement opportunities and bugs, giving feedback during meetings (daily when necessary), joining important meetings and general problem solving. With this contract renewal, our squad got a new focus: using the <strong>Hubspot</strong> tool, now we were developing landing pages, promotional pages, try free classrooms and <strong>Hubspot CMS</strong> page templates."
+    ],
+    [
+      "Ademais, foi no decorrer dessa trajetória que adquiri e pus em prática o conhecimento que obtive em <strong>ES6</strong> e <strong>CSS3</strong> que considero essenciais como entendimento avançado. Quanto às tecnologias que venho usado, acabo por desenvolver bastante em <strong>React</strong> com <strong>Gatsby</strong> e <strong>Vue</strong> com <strong>Nuxt</strong> consumindo <strong>APIs</strong>. Ganhei, também, experiência com <strong>PHP</strong> e alguns de seus <em>frameworks</em>, como <strong>CodeIgniter</strong> e <strong>Laravel</strong>.",
+      "Furthermore, through my academic and professional path, I had the opportunity to practice the knowledge I acquired in <strong>ES6</strong> and <strong>CSS3</strong>, which I consider essential as advanced understanding. In relation to the technologies I have been using, I end up developing mostly in <strong>React</strong> with <strong>Gatsby</strong> and <strong>Vue</strong> with <strong>Nuxt</strong> consuming <strong>APIs</strong>. I also gathered some experience with <strong>PHP</strong> alongside some of your frameworks, like <strong>CodeIgniter</strong> and <strong>Laravel</strong>"
+    ]
+  ]
+}

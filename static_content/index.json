@@ -1,0 +1,22 @@
+{
+  "first_line": [
+    "<strong>Ítalo</strong> Vianna <strong>Iung</strong>",
+    [
+      "creative?",
+      "interactive?",
+      "some_label..."
+    ]
+  ],
+  "second_line": [
+    "DESENVOLVEDOR <strong>FRONT-END</strong>",
+    "<strong>FRONT-END</strong> DEVELOPER"
+  ],
+  "third_line": [
+    [
+      "criativo?",
+      "interativo?",
+      "insert_label..."
+    ],
+    "<strong>Ítalo</strong> Vianna <strong>Iung</strong>"
+  ]
+}

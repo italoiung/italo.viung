@@ -1,0 +1,23 @@
+[
+  {
+    "label": [
+      "sobre<b>()</b>",
+      "about<b>()</b>"
+    ],
+    "path": "/sobre"
+  },
+  {
+    "label": [
+      "trabalhos<b>()</b>",
+      "work<b>()</b>"
+    ],
+    "path": "/trabalhos"
+  },
+  {
+    "label": [
+      "contato<b>()</b>",
+      "contact<b>()</b>"
+    ],
+    "path": "/contato"
+  }
+]
