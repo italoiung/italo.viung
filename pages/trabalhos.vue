@@ -35,7 +35,7 @@ export default {
   mixins: [pageMixin],
   data() {
     return {
-      title: this.Translation([
+      pageTitle: this.Translation([
         'Ítalo Vianna Iung | Desenvolvedor Front-End | Trabalhos',
         'Ítalo Vianna Iung | Front-End Developer | Works',
       ]),
@@ -61,9 +61,14 @@ export default {
 
 <style lang="scss" scoped>
 main {
+  @include sm {
+    @include screenHeight(720) {
+      padding-bottom: 0;
+    }
+  }
   .wrap {
     margin-right: 0;
-    padding-top: calc(var(--headerEdge) * 1.25);
+    padding-top: var(--headerEdge);
   }
   ::v-deep .carousel {
     width: calc(var(--maxWidth) + 50vw - var(--maxWidth) / 2);

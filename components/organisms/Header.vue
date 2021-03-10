@@ -9,7 +9,7 @@
       <button
         v-if="!isMd && !isMenuOpen"
         class="menu-toggler"
-        @click="isMenuOpen = !isMenuOpen"
+        @click="toggleMenu"
       >
         menu <span></span>
       </button>
@@ -30,7 +30,7 @@
               </NuxtLink>
             </li>
           </ul>
-          <div class="overlay" @click="isMenuOpen = !isMenuOpen"></div>
+          <div class="overlay" @click="toggleMenu"></div>
         </nav>
       </transition>
       <button
@@ -54,7 +54,6 @@ export default {
   mixins: [pageMixin, responsiveMixin],
   data() {
     return {
-      isMenuOpen: false,
       navItems: navItems.map((item) =>
         Object.assign(item, { label: this.Translation(item.label) })
       ),
@@ -67,6 +66,9 @@ export default {
     name() {
       return this.$nuxt.$route.name
     },
+    isMenuOpen() {
+      return this.$store.state.isMenuOpen
+    },
     currentLang() {
       return this.$store.state.currentLang
     },
@@ -78,15 +80,26 @@ export default {
     changeLang(lang) {
       this.$store.commit('changeLang', lang)
     },
+    toggleMenu() {
+      this.$store.commit('toggleMenu', !this.isMenuOpen)
+    },
   },
 }
 </script>
 
-<style>
+<style lang="scss">
 :root {
   --headerHeight: 4rem;
   --headerOffset: calc(var(--headerHeight) / 1.5);
   --headerEdge: calc(var(--headerHeight) + var(--headerOffset));
+  @include screenHeight(550) {
+    --headerOffset: 0.25rem;
+  }
+  @include max-xs {
+    @include minScreenHeight(600) {
+      --headerOffset: var(--headerHeight);
+    }
+  }
 }
 </style>
 
@@ -111,7 +124,7 @@ header {
   }
 }
 .logo {
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   margin-right: auto;
   @include max-xs {
     letter-spacing: 0;
@@ -145,9 +158,8 @@ nav {
       overflow: auto;
       padding: var(--headerOffset) 2rem;
       width: 20rem;
-      background-color: rgba(var(--darkBgRgb), 0.5);
       box-shadow: -4px 4px 3px 2px rgba(var(--darkerTextRgb), 0.5);
-      backdrop-filter: blur(1rem);
+      @include backdropFilterFallback(1rem, 0.5);
       border-radius: 5% 0% 0% 15% / 15% 0% 0% 5%;
       max-width: 90vw;
       font-size: 1.5rem;
@@ -196,7 +208,7 @@ nav {
     position: absolute;
     z-index: -1;
     @extend %cover;
-    backdrop-filter: blur(0.25rem);
+    @include backdropFilterFallback(0.25rem, 0.15);
   }
 }
 .lang-toggler {

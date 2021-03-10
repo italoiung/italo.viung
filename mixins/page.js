@@ -1,3 +1,4 @@
+import ogImage from '~/assets/img/resizable/projects/this.jpg'
 function Translation(langs, strings) {
   const $this = this
   langs.forEach(function (item, index) {
@@ -11,7 +12,7 @@ function Translation(langs, strings) {
 export default {
   data() {
     return {
-      title: this.Translation([
+      pageTitle: this.Translation([
         'Ítalo Vianna Iung | Desenvolvedor Front-End',
         'Ítalo Vianna Iung | Front-End Developer',
       ]),
@@ -29,7 +30,12 @@ export default {
   },
   head() {
     return {
-      title: this.title[this.currentLang]
+      title: this.pageTitle[this.currentLang],
+      meta: [
+        { hid: 'og:image' },
+        { property: 'og:image' },
+        { content: this.BASE_URL + ogImage },
+      ],
     }
-  }
+  },
 }

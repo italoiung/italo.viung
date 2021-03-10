@@ -33,7 +33,7 @@ export default {
   mixins: [pageMixin],
   data() {
     return {
-      title: this.Translation([
+      pageTitle: this.Translation([
         'Ítalo Vianna Iung | Desenvolvedor Front-End | Contato',
         'Ítalo Vianna Iung | Front-End Developer | Contact',
       ]),
@@ -72,10 +72,11 @@ main {
   width: 100%;
   background-color: rgba(var(--darkBgRgb), 0.75);
   box-shadow: 3px 9px 3px 2px rgba(var(--darkerTextRgb), 0.353);
-  backdrop-filter: blur(0.5rem);
+  @include backdropFilterFallback(0.5rem);
   border-radius: 5% 15% 5% 15% / 15% 5% 15% 5%;
   padding: 1rem;
   margin: auto 0 auto auto;
+  transform: translateY(5rem);
   @include sm {
     width: 75%;
   }

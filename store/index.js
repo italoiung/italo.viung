@@ -4,6 +4,7 @@ export const state = function () {
     langs: ['pt', 'en'],
     currentLang: 'pt',
     background: false,
+    isMenuOpen: false,
   }
 }
 
@@ -16,5 +17,8 @@ export const mutations = {
   },
   toggleBackground(state) {
     state.background = !state.background
+  },
+  toggleMenu(state, isOpen) {
+    state.isMenuOpen = isOpen
   },
 }

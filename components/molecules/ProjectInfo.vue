@@ -49,15 +49,12 @@ export default {
 .project {
   &__inner {
     width: 15rem;
-    margin-top: 0.5rem;
     padding: 1rem;
-    background-color: rgba(var(--darkBgRgb), 0.75);
     box-shadow: 3px 9px 3px 2px rgba(var(--darkerTextRgb), 0.353);
-    backdrop-filter: blur(0.25rem);
+    @include backdropFilterFallback(0.25rem);
     border-radius: 5% 15% 5% 15% / 15% 5% 15% 5%;
     text-align: center;
     color: var(--darkText);
-    position: relative;
   }
   h3 {
     display: none;

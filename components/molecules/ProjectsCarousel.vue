@@ -16,7 +16,6 @@
         :alt="item.name"
         type="oneQuarter"
         class="carousel__item__screen"
-        loading="lazy"
       />
       <AtomResponsiveImage
         :src-image="`projects/${item.logo}`"
@@ -81,8 +80,7 @@ export default {
     content: '';
     width: 50%;
     flex: 0 0 auto;
-    background-color: rgba(var(--darkBgRgb), 0.75);
-    backdrop-filter: blur(0.25rem);
+    @include backdropFilterFallback(0.25rem);
   }
   &__nav {
     position: absolute;
@@ -108,8 +106,7 @@ export default {
     }
     &::before {
       @extend %cover;
-      background-color: rgba(var(--darkBgRgb), 0.5);
-      backdrop-filter: blur(0.25rem);
+      @include backdropFilterFallback(0.25rem, 0.5);
       transition: 0.15s all;
       z-index: 1;
     }

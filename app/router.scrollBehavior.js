@@ -1,4 +1,4 @@
-export default async (to, savedPosition) => {
+export default async (to, from, savedPosition) => {
   if (savedPosition) {
     return savedPosition
   }

@@ -1,14 +1,24 @@
 export default {
+  server: {
+    port: 8000, // default: 3000     
+    host: '0.0.0.0', // default: localhost   
+  },
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Ítalo Iung | Desenvolvedor Front-End | ',
+    htmlAttrs: {
+      lang: 'pt',
+      translate: 'no'
+    },
+    title: 'Ítalo Iung | Desenvolvedor Front-End ',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Desenvolvedor front-end residido em Porto Alegre. Criação de sites rápidos com foco em alta performance, responsividade e experiência do usuário.' },
+      { hid: 'og:description', name: 'og:description', content: 'Desenvolvedor front-end residido em Porto Alegre. Criação de sites rápidos com foco em alta performance, responsividade e experiência do usuário.' },
+      { hid: 'og:image', property: 'og:image', content: '/ogImage.jpg' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
@@ -53,7 +63,6 @@ export default {
     ['@nuxtjs/google-fonts', {
       display: 'swap',
       download: true,
-      subsets: 'latin',
       families: {
         'Yeseva+One': true,
         Lora: [400, 600, 700],
@@ -94,6 +103,7 @@ export default {
     },
     afterEnter() {
       this.$store.commit('toggleBackground')
+      this.$store.commit('toggleMenu', false)
     },
   },
 
@@ -111,7 +121,7 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: 'en',
+      lang: 'pt',
     },
   },
 

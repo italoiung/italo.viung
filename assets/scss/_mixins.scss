@@ -125,11 +125,17 @@
   }
 }
 
-@mixin backdropFilterFallback() {
-  background-color: rgba(var(--blackRgb), 0.75);
-  @supports ((-webkit-backdrop-filter: blur(30px)) or (backdrop-filter: blur(30px))) {
-    background-color: transparent;
-    backdrop-filter: blur(30px);
+@mixin minScreenHeight($screen) {
+  @media (min-height: $screen+"px") {
+    @content;
+  }
+}
+
+@mixin backdropFilterFallback($ratio: 1rem, $alpha: 0.75) {
+  background-color: rgba(var(--darkBgRgb), 0.9);
+  @supports ((-webkit-backdrop-filter: blur($ratio)) or (backdrop-filter: blur($ratio))) {
+    background-color: rgba(var(--darkBgRgb), $alpha);
+    backdrop-filter: blur($ratio);
   }
 }
 

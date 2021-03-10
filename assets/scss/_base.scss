@@ -34,6 +34,7 @@ body {
 main {
   overflow: hidden;
   height: 100vh;
+  min-height: 500px;
   position: relative;
   padding-bottom: var(--headerOffset);
   .wrap {

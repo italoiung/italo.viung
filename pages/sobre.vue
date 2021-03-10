@@ -78,7 +78,7 @@ export default {
   mixins: [pageMixin],
   data() {
     return {
-      title: this.Translation([
+      pageTitle: this.Translation([
         'Ítalo Vianna Iung | Desenvolvedor Front-End | Sobre',
         'Ítalo Vianna Iung | Front-End Developer | About',
       ]),
@@ -145,9 +145,10 @@ main {
   position: relative;
   width: 100%;
   height: calc(100% - var(--headerEdge) * 2.5);
+  min-height: 400px;
   background-color: rgba(var(--darkBgRgb), 0.75);
   box-shadow: 3px 9px 3px 2px rgba(var(--darkerTextRgb), 0.353);
-  backdrop-filter: blur(0.5rem);
+  @include backdropFilterFallback(0.5rem);
   border-radius: 5% 15% 5% 15% / 15% 5% 15% 5%;
   margin: auto auto 0;
   @include sm {
@@ -187,6 +188,7 @@ main {
   }
   &__tabs {
     width: 100%;
+    flex: 0 0 auto;
     display: flex;
     justify-content: flex-end;
     p {

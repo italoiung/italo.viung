@@ -5,9 +5,18 @@
   ],
   "subtitle": [
     "<b>Clique</b> para <b>navegar</b> através dos <b>meus trabalhos</b>",
-    "<b>Tap</b> arount to <b>navigate</b> through <b>my work</b>"
+    "<b>Tap</b> around to <b>navigate</b> through <b>my work</b>"
   ],
   "projects": [
+    {
+      "name": "Ítalo V. Iung",
+      "id": "italo-viung",
+      "stack": "Nuxt.js, SASS",
+      "screen": "this.jpg",
+      "logo": "italo-logo.png",
+      "year": 2021,
+      "github": "https://github.com/italoiung/italo.viung"
+    },
     {
       "name": "FIA Online",
       "id": "fia-online",
