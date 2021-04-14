@@ -55,6 +55,8 @@ export default {
     border-radius: 5% 15% 5% 15% / 15% 5% 15% 5%;
     text-align: center;
     color: var(--darkText);
+    position: relative;
+    z-index: 3;
   }
   h3 {
     display: none;

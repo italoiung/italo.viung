@@ -26,7 +26,9 @@
     "@nuxtjs/google-fonts": "^1.2.0",
     "@nuxtjs/style-resources": "^1.0.0",
     "@nuxtjs/stylelint-module": "^4.0.0",
+    "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.3.0",
     "eslint": "^7.18.0",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-nuxt": "^2.0.0",
@@ -37,6 +39,7 @@
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-pngquant": "^9.0.1",
     "imagemin-svgo": "^8.0.0",
+    "jest": "^26.4.2",
     "lqip-loader": "^2.2.1",
     "prettier": "^2.2.1",
     "prettier-stylelint": "^0.4.2",
@@ -50,6 +53,7 @@
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-scss": "^3.19.0",
+    "vue-jest": "^3.0.4",
     "webp-loader": "^0.6.0"
   }
 }
