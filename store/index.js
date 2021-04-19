@@ -14,6 +14,8 @@ export const mutations = {
   },
   changeLang(state, lang) {
     state.currentLang = lang
+    if (process.browser)
+      localStorage.setItem('lang', lang)
   },
   toggleBackground(state) {
     state.background = !state.background
