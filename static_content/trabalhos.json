@@ -18,6 +18,15 @@
       "github": "https://github.com/italoiung/italo.viung"
     },
     {
+      "name": "UNESC Digital",
+      "id": "unesc-digital",
+      "stack": "Hubspot CMS, HUBL, SASS, jQuery, Vue.js",
+      "screen": "unesc.jpg",
+      "logo": "unesc-logo.png",
+      "year": 2021,
+      "url": "https://digital.unesc.net/"
+    },
+    {
       "name": "FIA Online",
       "id": "fia-online",
       "stack": "Hubspot CMS, HUBL, SASS, jQuery, Vue.js",
@@ -41,7 +50,7 @@
     {
       "name": "PUCRS Online",
       "id": "pucrs-online",
-      "stack": "Vue.js",
+      "stack": "SASS, Vue.js",
       "screen": "pucrs.jpg",
       "logo": "pucrs-logo.png",
       "year": 2020,
@@ -50,7 +59,7 @@
     {
       "name": "Amanda Iung",
       "id": "amanda-iung",
-      "stack": "Headless Wordpress, Gatsby.js, React.js",
+      "stack": "Headless Wordpress, SASS, Gatsby.js, React.js",
       "screen": "amanda.jpg",
       "logo": "amanda-logo.png",
       "year": 2019,
@@ -60,7 +69,7 @@
     {
       "name": "Iung",
       "id": "iung",
-      "stack": "Pug.js, SASS, ES6, Gulp.js",
+      "stack": "Pug.js, SASS, ES6+, Gulp.js",
       "screen": "iung.jpg",
       "logo": "iung-logo.png",
       "year": 2019,
@@ -70,7 +79,7 @@
     {
       "name": "Ítalo Iung",
       "id": "italo-iung",
-      "stack": "Pug.js, SASS, ES6, Gulp.js",
+      "stack": "Pug.js, SASS, ES6+, Gulp.js",
       "screen": "italo.jpg",
       "logo": "italo-logo.png",
       "year": 2019,
